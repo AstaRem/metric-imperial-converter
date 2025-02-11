@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keitikas</title>
-    <link rel="stylesheet" href="styles.css"><link/>
+    <link rel="stylesheet" href="styles.css">
+    <link />
     <!-- fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
     <script src="app.js" defer></script>
 </head>
+
 <body>
     <div class="top-div">
 
-    <div class="wrapper">
-        <h1>Length converter 
-            <br>from Metric to Imperial</h1>
+        <div class="wrapper">
+            <h1>Length converter
+                <br>from Metric to Imperial
+            </h1>
 
-        <div class="from-metric">
-            <form>
-                <div class="action-name">Convert from:</div>
+            <div class="from-metric">
+                <form data-input-form>
 
-                <div>
-                    <input type="text" id="metric-input" name="metric-unit">
-                </div>
-    
-                <div class="unit-from">
-                    <select id="metric-unit" name="metric-unit" placeholder="Enter the number">
-                        <option> Centimeter</option>
-                        <option>Meter</option>
-                        <option>Kilometer</option>
-                      </select>
-                </div>
-                <button type="submit" class="submit-btn" id="submit">
-                    Convert
-                </button>
-            </form>
-        </div>
-        
-        <div class="from-imperial">
-            <form>
+                    <div class="action-name">Convert from:</div>
+
+                    <div>
+                        <input type="text" id="metric-input" name="metric-unit" placeholder="Enter the number">
+                    </div>
+
+                    <div class="unit-from">
+                        <select id="metric-unit" name="metric-unit">
+                            <option> Centimeter</option>
+                            <option>Meter</option>
+                            <option>Kilometer</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="submit-btn" id="submit">
+                        Convert
+                    </button>
+                </form>
+            </div>
+
+            <div class="from-imperial">
+                <form>
                 <div>
                     <!-- <input type="text" id="imperial-input" name="imperial-unit">> -->
-                     <div id="result"></div>
+                    <div id="result"></div>
                 </div>
-    
+
                 <div class="unit-to">
                     <div class="action-name">Convert to:</div>
 
@@ -53,16 +61,17 @@
                         <option>Inch</option>
                         <option>Foot</option>
                         <option>Mile</option>
-                      </select>
+                    </select>
                     <div class="result"></div>
-                       
+
                 </div>
-            </form>
-    
+                </form>
+
+            </div>
+
         </div>
-    
     </div>
-</div>
 
 </body>
+
 </html>

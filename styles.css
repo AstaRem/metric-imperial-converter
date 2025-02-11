@@ -68,11 +68,12 @@ h1 {
 #metric-unit, #imperial-unit {
     width: 120px;
     height: 30px;
-    /* border-radius: 13px; */
-    background-color: #a87932;
-    color: #0c283d;
+    border-radius: 5px;
+    background-color: #b48c50;
+    /* color: #0c283d; */
     border: none;
     padding: 2px 4px;
+    font-size: 16px;
 }
 
 #submit {
