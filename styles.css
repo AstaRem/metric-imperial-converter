@@ -98,3 +98,7 @@ input {
     font-size:22px;
 
 }
+
+#submit:hover {
+    background-color: #ae71c9;
+}
